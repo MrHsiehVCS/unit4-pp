@@ -11,9 +11,9 @@ For **Part A** you are going to complete the class `RockPaperScissors`. The clas
    - Users can choose *Paper* by inputting either *P* or *p*.
    - Users can choose *Scissors* by inputting either *S* or *s*.
    - Users can choose *Any* by inputting either *A* or *a*. If a user selects *Any* then a random selection is made for them, the same way it is done for the computer.
-2. Have the computer secretly select one of the three options randomly.
-3. Output both selections and if the user wins, loses or ties.
-4. Keep track and display how many times the user has won, lost and tied
+2. Have the computer secretly select one of the three options, randomly.
+3. Output both selections and whether the user wins, loses or ties with the computer.
+4. Keep track of and display how many times the user has won, lost and tied
 5. Keep playing the game until the user chooses to stop.
 
 Your output should look like the **Sample Run** below.
@@ -47,7 +47,7 @@ Thanks for playing!
 
 ## PART B - PalindromeTester.java
 
-For **PART B**, you need to complete the class `Palindrometester`. The class tests whether or not a given `String` from the user is a palindrome.
+For **PART B**, you need to complete the class `PalindromeTester`. The class tests whether or not a given `String` from the user is a palindrome.
 
 For the sake of this project, a palindrome is defined as a `String` that reads the same forward and backwards when spaces, numbers, punctuation, and capitalization are all ignored.
 
