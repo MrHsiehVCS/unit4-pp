@@ -14,7 +14,7 @@ public class RockPaperScissorsTests {
                 Scanner sc = new Scanner(System.in);
                 RockPaperScissors.play(sc);
             });
-            String[] tokens = output.split("\n");
+            String[] tokens = output.split(System.lineSeparator());
             int[] winsLossesDraws = { 0, 0, 0 };
             for (String tk : tokens) {
                 tk = tk.toLowerCase();
@@ -49,6 +49,7 @@ public class RockPaperScissorsTests {
     @Test
     void doesRockPaperScissorLogicCorrectly() {
         int[] results = { -1, 0, 1, -1, 0, 1, -1, 0, 1 };
+
         assertAll("logic results", 
                 () -> assertEquals(results[0], RockPaperScissors.results("R", "P")),
                 () -> assertEquals(results[1], RockPaperScissors.results("R", "R")),

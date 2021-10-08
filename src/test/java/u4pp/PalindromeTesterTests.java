@@ -12,6 +12,37 @@ import org.junit.jupiter.api.Test;
 
 class PalindromeTesterTests {
 
+
+    @Test
+    void isPalindrome_whenCalledWithAllUpperCaseOddPalindrome_returnsTrue() {
+        assertTrue(PalindromeTester.isPalindrome("XYZYX"));
+    }
+
+    @Test
+    void isPalindrome_whenCalledWithAllUpperCaseEvenPalindrome_returnsTrue() {
+        assertTrue(PalindromeTester.isPalindrome("QWERREWQ"));
+    }
+
+    @Test
+    void isPalindrome_whenCalledWithAllLowerCaseOddPalindrome_returnsTrue() {
+        assertTrue(PalindromeTester.isPalindrome("abcdcba"));
+    }
+
+    @Test
+    void isPalindrome_whenCalledWithAllLowerCaseEvenPalindrome_returnsTrue() {
+        assertTrue(PalindromeTester.isPalindrome("abccba"));
+    }
+
+    @Test
+    void isPalindrome_whenCalledWithAllLowerCaseLongPalindrome_returnsTrue() {
+        assertTrue(PalindromeTester.isPalindrome("aaaabbccddeeddeeddggaaddggddaaaeeeeppeeeeaaaddggddaaggddeeddeeddccbbaaaaaa"));
+    }
+
+    @Test
+    void isPalindrome_whenCalledWithSpacesAndCaptilizationDiffferences_returnsTrue() {
+        assertTrue(PalindromeTester.isPalindrome("Never odd or Even"));
+    }
+
     @Test
     void isPalindrome_whenCalledWithASingleWordPalindromeWithCapitalizationDifferences_returnsTrue() {
         assertTrue(PalindromeTester.isPalindrome("raCecAr"));
@@ -24,7 +55,7 @@ class PalindromeTesterTests {
 
     @Test
     void isPalindrome_whenCalledWithASimpleStringThatIsNotAPalindrome_returnsFalse() {
-        assertFalse(PalindromeTester.isPalindrome("thisISApalindrome"));
+        assertFalse(PalindromeTester.isPalindrome("thisISnoTApalindrome"));
     }
 
     @Test
@@ -40,7 +71,7 @@ class PalindromeTesterTests {
                 Scanner sc = new Scanner(System.in);
                 PalindromeTester.execute(sc);
             });
-            assertEquals(timesExecuted, output.split("\n").length);
+            assertEquals(timesExecuted, output.split(System.lineSeparator()).length);
         });
     }
 }
