@@ -23,5 +23,5 @@ public class RockPaperScissors {
         /* YOUR CODE HERE */
     }
 
-    /* YOUR CODE HERE */
+    /* any helper methods you might need */
 }

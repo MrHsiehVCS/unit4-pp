@@ -19,5 +19,5 @@ public class PalindromeTester {
         /* YOUR CODE HERE */
     }
 
-    /* Any helper methods you need */
+    /* Any helper methods you might need */
 }
