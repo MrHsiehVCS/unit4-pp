@@ -2,9 +2,15 @@
 
 For this project, you will be completing the code for two classes: `RockPaperScissors` and `PalindromeTester`. Each of these classes have some code that has already been written for you. You should not change any of the provided code. Instead, you should add in your own code in order to fulfill the project requirements. You will also need to JavaDoc all your classes.
 
-## PART A - RockPaperScissors.java
+## Part A - RockPaperScissors.java - results()
 
-For **Part A** you are going to complete the class `RockPaperScissors`. The class simulates a game of Rock-Paper-Scissors against a computer. In order to do so, you must:
+The method `results` should accept player and computer input (`"R"`, `"P"` or `"S"`, lowercase or capital), and return an integer: `1` if the player wins, `0` if it is a tie, and `-1` if the player loses.
+
+This part has one test - `doesRockPaperScissorLogicCorrectly`
+
+## PART B - RockPaperScissors.java
+
+For **Part B** you are going to complete the class `RockPaperScissors`. The class simulates a game of Rock-Paper-Scissors against a computer. In order to do so, you must:
 
 1. Prompt the user to select *Rock*, *Paper*, or *Scissors*.
    - Users can choose *Rock* by inputting either *R* or *r*.
@@ -18,7 +24,7 @@ For **Part A** you are going to complete the class `RockPaperScissors`. The clas
 
 Your output should look like the **Sample Run** below.
 
-### PART A Sample Run
+### PART B Sample Run
 
 ```java
 Welcome to Rock Paper Scissors
@@ -45,15 +51,17 @@ Would you like to play again? (Y)es or (N)o: N
 Thanks for playing! 
 ```
 
-## PART B - PalindromeTester.java
+## PART C - PalindromeTester.java
 
-For **PART B**, you need to complete the class `PalindromeTester`. The class tests whether or not a given `String` from the user is a palindrome.
+For **PART C**, you need to complete the class `PalindromeTester`. The class tests whether or not a given `String` from the user is a palindrome.
 
 For the sake of this project, a palindrome is defined as a `String` that reads the same forward and backwards when spaces, numbers, punctuation, and capitalization are all ignored.
 
-You should continually prompt the user for words to test until the user chooses to stop. Your output should look like the **Sample Run** below.
+The method `isPalindrome` should take in a string and return a boolean for whether or not the string is a palindrome, as defined in the paragraph above. The input string could have any number of spaces, punctuation, etc. Finishing this function should clear up 10 tests - all the ones starting with `isPalindrome_whenCalledWith...`.
 
-### Part B Sample Run
+After finishing `isPalindrome`, you will work on `execute()`. You should continually prompt the user for words to test until the user chooses to stop. Your output should look like the **Sample Run** below.
+
+### Part C Sample Run
 
 ```java
 Welcome to Palindrome Tester
