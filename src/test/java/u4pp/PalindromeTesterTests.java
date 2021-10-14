@@ -77,6 +77,7 @@ class PalindromeTesterTests {
                 PalindromeTester.execute(sc);
             });
             assertEquals(timesExecuted, output.split("\n").length);
+            // also assert num times "palindrome" is detected. 
         });
     }
 }
