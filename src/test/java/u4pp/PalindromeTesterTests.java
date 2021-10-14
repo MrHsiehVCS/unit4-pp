@@ -63,6 +63,11 @@ class PalindromeTesterTests {
         assertFalse(PalindromeTester.isPalindrome("thi@@isIsNot       a Palindrome"));
     }
 
+    // TODO: test specifically for happy path looping
+    // TODO: test for bad input in y/n
+    // TODO: test for given palindrome
+    // TODO: test for non-palindrome
+
     @Test
     void execute_whenCalled_executesTheLoopsCorrectly() throws Exception {
         int timesExecuted = 6;

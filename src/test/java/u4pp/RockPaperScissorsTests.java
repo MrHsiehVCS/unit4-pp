@@ -7,6 +7,14 @@ import static org.junit.jupiter.api.Assertions.assertAll;
 import java.util.Scanner;
 
 public class RockPaperScissorsTests {
+
+    // TODO: Add test for R, P, S input, also lowercase version
+    // TODO: extend displaysScoreCorrectly() to be much longer (100 games?) 
+    //       also make it check that sum of win/loss/tie == number of games played
+    // TODO: add test for looping many times
+    // TODO: test for invalid input for y/n
+    // TODO: test for invalid input for r/p/s
+
     @Test
     void displaysScoreCorrectly() throws Exception {
         withTextFromSystemIn("a", "y", "a", "y", "a", "y", "a", "n").execute(() -> {
