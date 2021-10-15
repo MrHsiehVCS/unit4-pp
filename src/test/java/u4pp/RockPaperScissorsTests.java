@@ -30,7 +30,7 @@ public class RockPaperScissorsTests {
                     winsLossesDraws[0]++;
                 } else if (tk.contains("you lose")) {
                     winsLossesDraws[1]++;
-                } else if (tk.contains("its a tie")) {
+                } else if (tk.contains("it's a tie")) {
                     winsLossesDraws[2]++;
                 }
             }
