@@ -51,6 +51,11 @@ Would you like to play again? (Y)es or (N)o: N
 Thanks for playing! 
 ```
 
+Hint: 
+- You might want to make helper methods for contained bits of functionality. For example:
+  - a helper method for getting a random choice between R/P/S
+  - a helper method that displays/handles one full round of RPS
+
 ## PART C - PalindromeTester.java
 
 For **PART C**, you need to complete the class `PalindromeTester`. The class tests whether or not a given `String` from the user is a palindrome.
