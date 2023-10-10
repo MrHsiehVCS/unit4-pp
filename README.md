@@ -80,6 +80,10 @@ Keep testing? (Y)es or (N)o: N
 
 ## Grading Breakdown
 
-- Attempted code in all **YOUR CODE HERE** areas: 40 points
-- Correctly updated all comments: 20 points
-- Passed all Test Cases: 40 points
+- Code compiles & runs without errors: 1 pts
+- Formatting/indentation: 2 points
+- All code commented: 2 points
+- No public methods/attributes besides the ones specified: 2 point
+- All code is DRY (Don't repeat yourself): 3 points
+- Passes all test cases: 20 points
+Total: 30 points
