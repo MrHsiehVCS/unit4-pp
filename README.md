@@ -28,9 +28,15 @@ For **Part B** you are going to complete the class `RockPaperScissors`. The clas
 3. change the `int` output to show the proper output. 
   - ex: `You both picked Rock. Its a tie!`, or `You picked Rock, and the Computer picked Paper. You lose!`
 4. add a loop of some sort that repeats this over and over, asking the user if they want to continue. 
-  - Have the loop exit when 
+  - Have the loop exit based on the user input
+  - ex: `Would you like to play again? (Y)es or (N)o:`
+5. add variables to keep track of how many wins/ties/losses the player has experienced. 
+  - print these out at the right time, with the correct format
+  - ex: `You have 0 wins and 3 losses and 1 ties`
 
-Your output should look like the **Sample Run** below.
+
+Once you are done, your output should look like the **Sample Run** below.
+The sample output includes player input. 
 
 ### PART B Sample Run
 
