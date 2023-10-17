@@ -7,21 +7,24 @@ import java.util.Scanner;
 
 public class RockPaperScissors {
 
-    /* ANY CODE YOU NEED HERE */
+    /* any code you need here for part b */
 
     /**
      * JAVADOC HERE
      */
     public static void play(Scanner sc) {
-        /* YOUR CODE HERE */
+        /* PART B: YOUR CODE HERE */
     }
 
     /**
      * JAVADOC HERE
      */
     public static int results(String playerChoice, String computerChoice) {
-        /* YOUR CODE HERE */
+        /* PART A: YOUR CODE HERE */
     }
 
-    /* any helper methods you might need */
+    /* 
+     * create helper methods for part b
+     * I recommend at least making a helper method that returns a random option between "r", "p", and "s"
+     */
 }

@@ -10,7 +10,7 @@ This part has one test - `doesRockPaperScissorLogicCorrectly`
 
 ## PART B - RockPaperScissors.java
 
-For **Part B** you are going to complete the class `RockPaperScissors`. The class simulates a game of Rock-Paper-Scissors against a computer. In order to do so, you must:
+For **Part B** you are going to complete the class `RockPaperScissors`. The class simulates a game of Rock-Paper-Scissors against a computer. The completed project will do the following:
 
 1. Prompt the user to select *Rock*, *Paper*, or *Scissors*.
    - Users can choose *Rock* by inputting either *R* or *r*.
@@ -18,9 +18,17 @@ For **Part B** you are going to complete the class `RockPaperScissors`. The clas
    - Users can choose *Scissors* by inputting either *S* or *s*.
    - Users can choose *Any* by inputting either *A* or *a*. If a user selects *Any* then a random selection is made for them, the same way it is done for the computer.
 2. Have the computer secretly select one of the three options, randomly.
-3. Output both selections and whether the user wins, loses or ties with the computer.
+3. Using the results method from part A, output both selections and whether the user wins, loses, or ties.
 4. Keep track of and display how many times the user has won, lost and tied
 5. Keep playing the game until the user chooses to stop.
+
+### PART B - Implementation order
+1. create a helper method that returns a random choice between `"r"`, `"p"`, or `"s"`
+2. use the scanner to take in player input, and the helper method to generate a computer choice, then use the `results` method from PART A to output the `int` of who won
+3. change the `int` output to show the proper output. 
+  - ex: `You both picked Rock. Its a tie!`, or `You picked Rock, and the Computer picked Paper. You lose!`
+4. add a loop of some sort that repeats this over and over, asking the user if they want to continue. 
+  - Have the loop exit when 
 
 Your output should look like the **Sample Run** below.
 
