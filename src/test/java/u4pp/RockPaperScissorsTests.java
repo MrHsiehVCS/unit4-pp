@@ -53,28 +53,27 @@ public class RockPaperScissorsTests {
     }
 
     @Test
-    void doesRockPaperScissorLogicCorrectly() {
-        int[] results = { -1, 0, 1, -1, 0, 1, -1, 0, 1 };
+    void results_returnsCorrectValues() {
 
-        assertEquals(results[0], RockPaperScissors.results("R", "P"));
-        assertEquals(results[1], RockPaperScissors.results("R", "R"));
-        assertEquals(results[2], RockPaperScissors.results("R", "S"));
-        assertEquals(results[3], RockPaperScissors.results("S", "R"));
-        assertEquals(results[4], RockPaperScissors.results("S", "S"));
-        assertEquals(results[5], RockPaperScissors.results("S", "P"));
-        assertEquals(results[6], RockPaperScissors.results("P", "S"));
-        assertEquals(results[7], RockPaperScissors.results("P", "P"));
-        assertEquals(results[8], RockPaperScissors.results("P", "R"));
+        assertEquals(-1, RockPaperScissors.results("R", "P"));
+        assertEquals(0, RockPaperScissors.results("R", "R"));
+        assertEquals(1, RockPaperScissors.results("R", "S"));
+        assertEquals(-1, RockPaperScissors.results("S", "R"));
+        assertEquals(0, RockPaperScissors.results("S", "S"));
+        assertEquals(1, RockPaperScissors.results("S", "P"));
+        assertEquals(-1, RockPaperScissors.results("P", "S"));
+        assertEquals(0, RockPaperScissors.results("P", "P"));
+        assertEquals(1, RockPaperScissors.results("P", "R"));
 
 
-        assertEquals(results[0], RockPaperScissors.results("r", "p"));
-        assertEquals(results[1], RockPaperScissors.results("r", "r"));
-        assertEquals(results[2], RockPaperScissors.results("r", "s"));
-        assertEquals(results[3], RockPaperScissors.results("s", "r"));
-        assertEquals(results[4], RockPaperScissors.results("s", "s"));
-        assertEquals(results[5], RockPaperScissors.results("s", "p"));
-        assertEquals(results[6], RockPaperScissors.results("p", "s"));
-        assertEquals(results[7], RockPaperScissors.results("p", "p"));
-        assertEquals(results[8], RockPaperScissors.results("p", "r"));
+        assertEquals(-1, RockPaperScissors.results("r", "p"));
+        assertEquals(0, RockPaperScissors.results("r", "r"));
+        assertEquals(1, RockPaperScissors.results("r", "s"));
+        assertEquals(-1, RockPaperScissors.results("s", "r"));
+        assertEquals(0, RockPaperScissors.results("s", "s"));
+        assertEquals(1, RockPaperScissors.results("s", "p"));
+        assertEquals(-1, RockPaperScissors.results("p", "s"));
+        assertEquals(0, RockPaperScissors.results("p", "p"));
+        assertEquals(1, RockPaperScissors.results("p", "r"));
     }
 }
