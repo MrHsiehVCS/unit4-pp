@@ -109,7 +109,4 @@ Total: 30 points
 
 
 ## Extra Credit
-- make your RPS computer AI smarter. Possible strategies include:
-  - change what it chooses, assuming that the player will play the same thing again
-  - remember its win percent for using r/p/s and weigh the random choice so that better winning choices are more likely
-  - other strategies here: https://abhinavrobinson.medium.com/ai-wins-rock-paper-scissors-mostly-65e0542f945b 
+- make your RPS computer AI smarter.
