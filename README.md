@@ -33,6 +33,8 @@ For **Part B** you are going to complete the class `RockPaperScissors`. The clas
 5. add variables to keep track of how many wins/ties/losses the player has experienced. 
   - print these out at the right time, with the correct format
   - ex: `You have 0 wins and 3 losses and 1 ties`
+6. add functionality to check for valid input.
+  - requires nesting while loops
 
 
 Once you are done, your output should look like the **Sample Run** below.
